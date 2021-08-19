@@ -28,5 +28,5 @@ install:
   - ls -l
   - ls bin/ -l
   - gem install dpl --pre
-  - dpl releases --token $repo_access_TOKEN --file "bin/NewApp-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
+  - dpl releases --token $new_repo_access_TOKEN --file "bin/NewApp-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
 
